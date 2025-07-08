@@ -1,27 +1,75 @@
-# Roman Urdu Sentiment Analysis using Bayesian Transformers
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Saeeda-kanwal/roman-urdu-sentiment-bayesian-transformers/blob/master/notebooks/1_sentiment_training.ipynb)
+# 🧠 Roman Urdu Sentiment Analysis using BERT and Bayesian Transformers
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Saeeda-Kanwal/roman-urdu-sentiment-bayesian-transformers/blob/main/notebooks/02_inference_demo.ipynb)
+[![Streamlit App](https://img.shields.io/badge/Run-Streamlit-brightgreen)](https://share.streamlit.io)
 
+This project presents a sentiment analysis system for **Roman Urdu** using **BERT-based Transformer models**, extended with **Bayesian learning** ideas to make predictions more robust and interpretable. It is aligned with the core research goals of the [Idiap PhD position in Deep Learning for NLP](https://careers.werecruit.io/en/idiap/offers/two-phd-positions-in-deep-learning-for-natural-language-processing-b8b2f3).
 
-This project demonstrates **sentiment analysis in Roman Urdu** using BERT and Bayesian Transformers with a focus on **interpretability, LLM augmentation, and Bayesian inference**.
+---
 
-## 📌 Features
-- BERT embeddings fine-tuned on Roman Urdu sentences
-- Bayesian linear layer to capture uncertainty
-- HuggingFace tokenizer and transformer models
-- Dummy dataset + prebuilt model architecture
-- Colab-ready demo notebook
+## 📁 Project Structure
 
-## 📁 Structure
-- `data/`: Roman Urdu sentiment data samples
-- `src/`: Model, training, and utils
-- `notebooks/`: End-to-end training notebook
+```
+roman-urdu-sentiment-bayesian-transformers/
+├── data/
+│   └── roman_urdu_sentiment_sample.csv
+├── notebooks/
+│   ├── 01_train_model.ipynb        # Train BERT on Roman Urdu dataset
+│   └── 02_inference_demo.ipynb     # Predict sentiment from input text
+├── streamlit_app.py                # Simple UI using Streamlit
+├── requirements.txt                # Dependencies
+└── README.md                       # This file
+```
 
-## 🧠 Technologies
-- Python, PyTorch, HuggingFace Transformers
-- BERT, Bayesian Linear Layer
-- Optional: Knowledge Graph embeddings for contextual enrichment
+---
 
-## 📬 Author
-[Saeeda Kanwal](https://github.com/Saeeda-Kanwal)
+## 📊 Features
+
+- Sentiment classification in **Roman Urdu**
+- Uses **BERT-base** model with fine-tuning
+- Inference with confidence scores
+- Interactive **Streamlit** demo
+- Future extensibility with **Bayesian Transformers** & **Knowledge Graph Embeddings**
+
+---
+
+## 🚀 How to Run
+
+### 🔬 1. Train the model (Colab or Jupyter)
+Open `01_train_model.ipynb`, run all cells. Modify data or model as needed.
+
+### 🧪 2. Test with inference notebook
+Open `02_inference_demo.ipynb`, enter any Roman Urdu sentence and get sentiment predictions.
+
+### 🌐 3. Launch the Streamlit App
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+```
+
+---
+
+## ✨ Sample Input & Output
+
+**Input:** `ye movie zabardast thi`  
+**Output:**  
+> Sentiment: Positive  
+> Confidence: [0.03, 0.97]
+
+---
+
+## 📌 Research Alignment
+
+- ✅ Transformer-based Representation Learning  
+- ✅ BERT + Bayesian Methods  
+- ✅ Interpretability via softmax probabilities  
+- ✅ NLP on multilingual and under-resourced languages
+
+---
+
+## 👩‍💻 Author
+
+**Saeeda Kanwal**  
+Lecturer & AI Researcher  
+[LinkedIn](https://www.linkedin.com/in/saeeda-kanwal) | [GitHub](https://github.com/Saeeda-Kanwal)
