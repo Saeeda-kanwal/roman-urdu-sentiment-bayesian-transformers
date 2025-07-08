@@ -5,7 +5,6 @@
 
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Saeeda-Kanwal/roman-urdu-sentiment-bayesian-transformers/blob/main/notebooks/02_inference_demo.ipynb)
-# [![Streamlit App](https://img.shields.io/badge/Run-Streamlit-brightgreen)](https://share.streamlit.io)
 
 This project presents a sentiment analysis system for **Roman Urdu** using **BERT-based Transformer models**, extended with **Bayesian learning** ideas to make predictions more robust and interpretable. 
 
