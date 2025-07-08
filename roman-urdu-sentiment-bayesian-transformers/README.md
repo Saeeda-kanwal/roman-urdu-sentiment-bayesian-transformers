@@ -1,6 +1,9 @@
 
 # 🧠 Roman Urdu Sentiment Analysis using BERT and Bayesian Transformers
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://roman-urdu-sentiment-bayesian-transformers-3vzeaaa7n8q23wzngpe.streamlit.app/)
+
+
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Saeeda-Kanwal/roman-urdu-sentiment-bayesian-transformers/blob/main/notebooks/02_inference_demo.ipynb)
 [![Streamlit App](https://img.shields.io/badge/Run-Streamlit-brightgreen)](https://share.streamlit.io)
 
