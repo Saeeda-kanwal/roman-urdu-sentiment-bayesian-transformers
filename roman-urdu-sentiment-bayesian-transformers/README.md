@@ -3,8 +3,8 @@
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://roman-urdu-sentiment-bayesian-transformers-3vzeaaa7n8q23wzngpe.streamlit.app/)
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Saeeda-Kanwal/roman-urdu-sentiment-bayesian-transformers/blob/main/notebooks/02_inference_demo.ipynb)
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Saeeda-Kanwal/roman-urdu-sentiment-bayesian-transformers/blob/main/notebooks/02_inference_demo.ipynb)
 
 This project presents a sentiment analysis system for **Roman Urdu** using **BERT-based Transformer models**, extended with **Bayesian learning** ideas to make predictions more robust and interpretable. 
 
